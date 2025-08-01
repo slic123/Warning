@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Security Awareness</title>
+  <title>Security Awareness / ආරක්ෂක අවබෝධය</title>
   <style type="text/css">
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Times New Roman", Times, serif;
       background-color: #fff3f3;
       text-align: center;
       padding: 40px;
@@ -12,6 +12,7 @@
     h1 {
       color: red;
       font-size: 28px;
+      margin-bottom: 20px;
     }
     p {
       font-size: 18px;
@@ -19,56 +20,82 @@
       margin: 10px 0;
     }
     img {
-      margin-top: 20px;
+      margin: 20px auto;
       max-width: 80%;
       border: 3px solid #cc0000;
       border-radius: 8px;
       box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+      display: block;
     }
-    .tips {
-      margin-top: 30px;
-      text-align: left;
+    .section {
       background: #fff;
       border: 2px solid #ccc;
       border-radius: 10px;
-      padding: 20px;
-      display: inline-block;
-      max-width: 700px;
+      padding: 30px;
+      margin: 30px auto;
+      max-width: 800px;
+      text-align: left;
     }
-    .tips h2 {
+    .section h2 {
       color: #cc0000;
       font-size: 22px;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
-    .tips ul {
+    .section ul {
       font-size: 16px;
       color: #333;
     }
-    .tips ul li {
+    .section ul li {
       margin: 8px 0;
+    }
+    .sinhala {
+      font-family: "Times New Roman", "Noto Sans Sinhala", serif;
     }
   </style>
 </head>
 <body>
-  <h1>⚠️ You've Been Part of a Phishing Simulation</h1>
-  
-  <p>This simulation was conducted by <b>SLIC's Security Team</b> to raise awareness.</p>
-  <p>Please be cautious with unknown links or attachments in emails.</p>
-  
-  <!-- Insert phishing simulation email screenshot -->
-  <img src="emailnew.png" alt="Phishing Simulation Email Screenshot">
 
-  <div class="tips">
-    <h2>🔐 How to Spot a Phishing Email:</h2>
+  <!-- SINHALA SECTION FIRST -->
+  <div class="section sinhala">
+    <h1>⚠️ ඔබ ඊමේල් අල්ලස් පිළිබඳ අවබෝධ වැඩසටහනක කොටසක් වී ඇත</h1>
+    <p>මෙම අල්ලස් අභ්‍යාසය <b>SLIC ආරක්ෂක කණ්ඩායම</b> මගින් ඔබේ අවබෝධය වැඩි කිරීමට සිදු කරන ලදී.</p>
+    <p>නොහඳුනන සබැඳි හෝ ගොනු ඇමුණුම් සහිත ඊමේල් පිළිබඳව අවධානයෙන් සිටින්න.</p>
+
+    <!-- Screenshot -->
+    <img src="emailnew.png" alt="Phishing Simulation Email Screenshot">
+
+    <h2>🔐 අල්ලස් ඊමේල් හඳුනාගැනීමේ ක්‍රම</h2>
     <ul>
-      <li>Check the <b>sender’s email address</b> carefully. Fake emails often use public domains (e.g., Gmail, Yahoo) instead of official company domains.</li>
-      <li>Look for <b>urgent warnings</b> or scare tactics like "mailbox is full" or "account will be suspended".</li>
-      <li>Hover over links before clicking — ensure the URL is legitimate and belongs to your organization.</li>
-      <li>Watch out for <b>spelling and grammar mistakes</b> in professional emails.</li>
-      <li>When in doubt, <b>contact IT Support directly</b> instead of clicking on suspicious links.</li>
+      <li>යවන්නාගේ <b>ඊමේල් ලිපිනය</b> සැලකිල්ලෙන් පරීක්ෂා කරන්න.</li>
+      <li><b>තත්කාලීන අනතුරු ඇඟවීම්</b> හෝ බිය පැමිණවීමේ පණිවිඩ සොයන්න.</li>
+      <li>සබැඳි මත මවුසය තබා <b>URL</b> නියත ලෙස සත්‍යාපනය කරන්න.</li>
+      <li>ඊමේල් තුළ ඇති <b>අක්ෂර දෝෂ</b> හෝ <b>වියෝජිත ව්‍යාකරණය</b> සලකා බලන්න.</li>
+      <li>අනීහාවක් තිබේ නම් සබැඳි ක්ලික් කිරීම වෙනුවට <b>IT සහය</b> අමතන්න.</li>
     </ul>
+
+    <p><b>සදා විග්‍රහයෙන් සිටින්න — ඔබේ අවබෝධයම අල්ලස් වලට එරෙහිව හොඳම ආරක්ෂාවයි!</b></p>
   </div>
 
-  <p><b>Stay vigilant — Your awareness is the best defense against phishing!</b></p>
+  <!-- ENGLISH SECTION SECOND -->
+  <div class="section">
+    <h1>⚠️ You've Been Part of a Phishing Simulation</h1>
+    <p>This simulation was conducted by <b>SLIC's Security Team</b> to raise awareness.</p>
+    <p>Please be cautious with unknown links or attachments in emails.</p>
+
+    <!-- Screenshot -->
+    <img src="emailnew.png" alt="Phishing Simulation Email Screenshot">
+
+    <h2>🔐 How to Spot a Phishing Email</h2>
+    <ul>
+      <li>Check the <b>sender’s email address</b> carefully.</li>
+      <li>Look for <b>urgent warnings</b> or scare tactics.</li>
+      <li>Hover over links to verify the real <b>URL</b>.</li>
+      <li>Watch for <b>spelling/grammar mistakes</b> in emails.</li>
+      <li>If unsure, <b>contact IT Support</b> instead of clicking links.</li>
+    </ul>
+
+    <p><b>Stay vigilant — Your awareness is the best defense against phishing!</b></p>
+  </div>
+
 </body>
 </html>
